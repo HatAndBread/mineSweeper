@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minesweeper</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon" />
+    <link rel="stylesheet" href="minesweeper.css" />
+  </head>
+  <body>
+    <h1 id="dummy" style="display: none">You lose dummy!!!! 🤣</h1>
+    <label for="difficult">Difficulty: </label>
+    <input type="range" name="difficulty" id="difficulty" min="1" max="100" value="20" />
+    <table>
+      <tbody id="minesweeper"></tbody>
+    </table>
+    <button id="reset">Play again🌈</button>
+    <script type="text/javascript" src="./lib/minesweeper.js"></script>
+  </body>
+</html>
