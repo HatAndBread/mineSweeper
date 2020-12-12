@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="minesweeper.css" />
   </head>
   <body>
-    <h1 id="dummy" style="display: none">You lose dummy!!!! 🤣</h1>
+    <button id="reset">Reset🌈</button>
+    <br />
     <label for="difficult">Difficulty: </label>
-    <input type="range" name="difficulty" id="difficulty" min="1" max="100" value="20" />
+    <input type="range" name="difficulty" id="difficulty" min="1" max="100" value="15" />
+    <br />
+    <label for="size">Size: </label>
+    <input type="range" name="size" id="size" min="1" max="50" value="10" />
     <table>
       <tbody id="minesweeper"></tbody>
     </table>
-    <button id="reset">Reset🌈</button>
   </body>
 </html>
